@@ -51,6 +51,22 @@ int e = 10;
          int f = 10;
          int g = 20;
          int max = (f > g) ? f : g;
-         System.out.println("Max value is: " + max);         
+         System.out.println("Max value is: " + max); 
+         
+// Instanceof Operator
+         String str = "Saurabh";
+         boolean result = str instanceof String;
+         System.out.println("Is str an instance of String? " + result);       
+         
+ // bit wise Operators
+         int h = 5; // 0101 in binary
+         int i = 3; // 0011 in binary
+         System.out.println("Bitwise AND " + (h & i)); // 0001 in binary, which is 1
+         System.out.println("Bitwise OR " + (h | i)); // 0111 in binary, which is 7
+         System.out.println("Bitwise XOR " + (h ^ i)); // 0110 in binary, which is 6
+         System.out.println("Bitwise NOT " + (~h)); // 1010 in binary, which is -6
+         System.out.println("Left Shift " + (h << 1)); // 1010 in binary, which is 10
+         System.out.println("Right Shift " + (h >> 1)); // 0010 in binary, which is 2
+         System.out.println("Unsigned Right Shift " + (h >>> 1)); // 0010 in binary, which is 2        
     }
 }
