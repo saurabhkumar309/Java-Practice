@@ -36,5 +36,21 @@ int b = 20;
          System.out.println("Assignment " + (c /= 10));
          System.out.println("Assignment " + (c %= 10));         
 
+// unary Operators
+int d = 5;
+int e = 10;
+         System.out.println("Unary " + (d++));
+         System.out.println("Unary " + (e--));
+         System.out.println("Unary " + (++d));
+         System.out.println("Unary " + (--e));
+         System.out.println("Unary " + (+d));
+         System.out.println("Unary " + (-e));
+
+  
+// Ternary Operators
+         int f = 10;
+         int g = 20;
+         int max = (f > g) ? f : g;
+         System.out.println("Max value is: " + max);         
     }
 }
