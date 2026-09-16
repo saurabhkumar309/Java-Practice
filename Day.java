@@ -25,7 +25,16 @@ int b = 20;
 
          System.out.println("Logical AND " + (a > 5 && b < 30));
          System.out.println("Logical OR " + (a > 5 || b < 30));
-         System.out.println("Logical NOT " + !(a > 5 && b < 30));        
+         System.out.println("Logical NOT " + !(a > 5 && b < 30)); 
+         
+// Assignment Operators
+
+         int c = 30;
+         System.out.println("Assignment " + (c += 10));
+         System.out.println("Assignment " + (c -= 10));
+         System.out.println("Assignment " + (c *= 10));
+         System.out.println("Assignment " + (c /= 10));
+         System.out.println("Assignment " + (c %= 10));         
 
     }
 }
