@@ -21,7 +21,11 @@ int b = 20;
          System.out.println("Greater than or equal to " + (a >= b));
          System.out.println("Less than or equal to " + (a <= b));
 
-//         
+// logical Operators
+
+         System.out.println("Logical AND " + (a > 5 && b < 30));
+         System.out.println("Logical OR " + (a > 5 || b < 30));
+         System.out.println("Logical NOT " + !(a > 5 && b < 30));        
 
     }
 }
