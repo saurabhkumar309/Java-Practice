@@ -44,6 +44,7 @@ public class Array {
         System.out.println("\nSum = " + sum);
 
         // 8. Maximum
+      
         int max = numbers[0];
 
         for (int num : numbers) {
