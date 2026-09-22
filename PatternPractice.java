@@ -2,7 +2,7 @@ public class PatternPractice {
 
     public static void main(String[] args) {
 
-        // Pattern 1: Square
+        //  Square
         System.out.println("Pattern 1");
 
         for (int i = 1; i <= 4; i++) {
@@ -32,7 +32,8 @@ public class PatternPractice {
         }
 
 
-        // Pattern 2: Right Triangle
+
+        //  Right Triangle
 
         System.out.println("\nPattern 2");
 
@@ -46,7 +47,8 @@ public class PatternPractice {
         }
 
 
-        // Pattern 3: Number Triangle
+
+        //  Number Triangle
         System.out.println("\nPattern 3");
 
         for (int i = 1; i <= 4; i++) {
@@ -59,7 +61,7 @@ public class PatternPractice {
         }
 
 
-        // Pattern 4: Same Number
+        //  Same Number
         System.out.println("\nPattern 4");
 
         for (int i = 1; i <= 4; i++) {
@@ -72,7 +74,7 @@ public class PatternPractice {
         }
 
 
-        // Pattern 5: Inverted Triangle
+        //  Inverted Triangle
         System.out.println("\nPattern 5");
 
         for (int i = 4; i >= 1; i--) {
@@ -85,7 +87,7 @@ public class PatternPractice {
         }
 
 
-        // Pattern 6: Continuous Numbers
+        //  Continuous Numbers
         System.out.println("\nPattern 6");
 
         int num = 1;
